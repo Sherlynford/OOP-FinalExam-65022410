@@ -58,7 +58,7 @@ class Employee implements Person, Job {
         details.append("Name: ").append(Name).append("\n");
         details.append("Position: ").append(Position).append("\n");
         details.append("EmpID: ").append(EmpID).append("\n");
-        details.append("Project:\n");
+        details.append("Projects:\n");
         for (Project project : projects) {
             details.append("\t").append(project.getProject()).append("\n");
         }
